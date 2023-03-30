@@ -40,6 +40,7 @@ Follow the link below for android and ios setup
 
 Then in the code 
 ```
+import RNBootSplash from 'react-native-bootsplash';
 RNBootSplash.hide({fade,duration});
 ```
 
