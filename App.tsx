@@ -1,5 +1,8 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import LottieSplashScreen from 'react-native-lottie-splash-screen';
+
+LottieSplashScreen.hide();
 
 const App = () => {
   return (
