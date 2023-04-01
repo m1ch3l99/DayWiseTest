@@ -19,4 +19,7 @@ Then run the following command:
 ```
 
 For platform specific setup
+
 [![react-native-make](https://img.shields.io/badge/React_NATIVE_MAKE-blue?style=for-the-badge&logo=react&logoColor=white)](https://github.com/bamlab/react-native-make/blob/master/docs/set-icon.md)
+
+> **_NOTE:_** If you want to setup an animated splash screen with **react-native-lottie-splash-screen** checkout to the following branch 👉 https://github.com/m1ch3l99/react-native-app/tree/feature/animated-splash-screen
