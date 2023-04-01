@@ -1,5 +1,5 @@
-
 # React-native-app
+
 A react native template with bunch of settings for a code ready project.
 
 ### App icon setup
@@ -20,7 +20,7 @@ Then run the following command:
   yarn react-native set-icon --path [path-to-image] --background color
 ```
 
-For platform specific setup 
+For platform specific setup
 
 [![react-native-make](https://img.shields.io/badge/React_NATIVE_MAKE-blue?style=for-the-badge&logo=react&logoColor=white)](https://github.com/bamlab/react-native-make/blob/master/docs/set-icon.md)
 
@@ -38,17 +38,15 @@ Follow the link below for android and ios setup
 
 [![react-native-bootsplash](https://img.shields.io/badge/React_NATIVE_BOOTSPLASH-blue?style=for-the-badge&logo=react&logoColor=white)](https://github.com/zoontek/react-native-bootsplash#setup)
 
-Then in the code 
+Then in the code
+
 ```
 import RNBootSplash from 'react-native-bootsplash';
 RNBootSplash.hide({fade,duration});
 ```
 
-| fade    | duartion      | 
-|---------|---------------|
-| boolean | number in (ms)| 
+| fade    | duration       |
+| ------- | -------------- |
+| boolean | number in (ms) |
 
-
-
-
-
+**_NOTE:_** If you want to setup an animated splash screen with **react-native-lottie-splash-screen** check to the following branch 👉 https://github.com/m1ch3l99/react-native-app/tree/feature/animated-splash-screen
