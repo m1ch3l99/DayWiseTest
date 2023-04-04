@@ -50,3 +50,59 @@ RNBootSplash.hide({fade,duration});
 | boolean | number in (ms) |
 
 **_NOTE:_** If you want to setup an animated splash screen with **react-native-lottie-splash-screen** check to the following branch 👉 https://github.com/m1ch3l99/react-native-app/tree/feature/animated-splash-screen
+
+### Setting up husky and linting
+
+#### What is Husky? 
+
+Husky lets us run commands or script before committing or pushing our code to git.
+
+To setup husky, first install the following deps:
+
+```
+yarn add husky lint-staged @commitlint/config-conventional @commitlint/cli -D
+```
+
+In the terminal run:
+
+```
+echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+```
+
+This command will create the commitlint config file.
+
+Then we need to init a .huksy dir in our project, so we run:
+
+```
+npx husky init
+```
+
+Now in package.json we add the following commands:
+
+```
+"scripts":{
+  ...
+  "lint": "eslint . --fix",
+},
+"lint-staged": {
+  "**/*.{js,tsx,ts}": [
+    "eslint --fix"
+  ]
+},
+"husky": {
+  "hooks": {
+    "pre-commit": "npx lint-staged"
+  }
+}
+```
+
+Now let's create a commit-msg and pre-commit bash files so that huksy will run the proper command.
+
+```
+npx husky add .husky/commit-msg "npx --no -- commitlint --edit"
+```
+```
+npx husky add .husky/pre-commit "npx lint-staged"
+```
+
+This also can be configurable based on demand.
