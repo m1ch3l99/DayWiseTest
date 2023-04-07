@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React, { ReactElement } from 'react';
-import RNBootSplash from 'react-native-bootsplash';
+import LottieSplashScreen from 'react-native-lottie-splash-screen';
 
-RNBootSplash.hide({ fade: true });
+LottieSplashScreen.hide();
 
 const whiteColor = '#fff';
 

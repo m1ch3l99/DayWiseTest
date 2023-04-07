@@ -11,9 +11,10 @@
     "ios-iPh14": "react-native run-ios --simulator='iPhone 14 Pro'"
   },
   "dependencies": {
+    "lottie-ios": "3.2.3",
     "react": "18.2.0",
     "react-native": "0.71.5",
-    "react-native-bootsplash": "^4.5.3"
+    "react-native-lottie-splash-screen": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
