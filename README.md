@@ -106,3 +106,61 @@ npx husky add .husky/pre-commit "npx lint-staged"
 ```
 
 This also can be configurable based on demand.
+
+### Setup absolute imports
+
+```
+yarn add -D babel-plugin-module-resolver
+```
+
+Now update the babel.config.js
+
+```
+module.exports = {
+ ...
+  plugins: [
+    [
+      'module-resolver',
+      {
+        root: ['./src'],
+        extensions: [
+          '.ios.ts',
+          '.android.ts',
+          '.ts',
+          '.ios.tsx',
+          '.android.tsx',
+          '.tsx',
+          '.jsx',
+          '.js',
+          '.json',
+        ],
+        alias: {
+          assets: './src/assets',
+          ...
+          // add the others
+        },
+      },
+    ],
+  ],
+};
+
+```
+
+We need to update also the tsconfig.json file:
+
+```
+{
+  ...
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "assets/*": ["./src/assets/*"]
+      ...
+      // add the others
+    }
+  },
+  "exclude": ["node_modules"]
+}
+
+```
+
