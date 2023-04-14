@@ -67,6 +67,7 @@
     "react-native/no-single-element-style-arrays": "error",
 
     // general rules
+    "implicit-arrow-linebreak": "off",
     "prefer-const": "error",
     "no-console": "error",
     "arrow-body-style": "error",
@@ -83,6 +84,18 @@
     ],
 
     // import rules
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "": "never",
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+        "mjs": "never"
+      }
+    ],
     "import/no-unresolved": "off",
     "import/no-named-as-default": 0,
     "import/no-cycle": "error",
@@ -92,8 +105,8 @@
       "error",
       {
         "groups": [
-          "builtin",
           "external",
+          "builtin",
           "internal",
           ["parent", "sibling", "index"],
           "object"
@@ -108,7 +121,8 @@
     "node": {
       "path": [".", "./src"],
       "alias": {
-        "assets": "./src/assets"
+        "assets": "./src/assets",
+        "http": "./src/http"
       }
     }
   }
