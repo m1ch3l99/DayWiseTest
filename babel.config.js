@@ -18,6 +18,7 @@ module.exports = {
         ],
         alias: {
           assets: './src/assets',
+          http: './src/http',
         },
       },
     ],

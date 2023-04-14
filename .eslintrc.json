@@ -67,6 +67,7 @@
     "react-native/no-single-element-style-arrays": "error",
 
     // general rules
+    "implicit-arrow-linebreak": "off",
     "prefer-const": "error",
     "no-console": "error",
     "arrow-body-style": "error",
@@ -92,8 +93,8 @@
       "error",
       {
         "groups": [
-          "builtin",
           "external",
+          "builtin",
           "internal",
           ["parent", "sibling", "index"],
           "object"
@@ -108,7 +109,8 @@
     "node": {
       "path": [".", "./src"],
       "alias": {
-        "assets": "./src/assets"
+        "assets": "./src/assets",
+        "http": "./src/http"
       }
     }
   }

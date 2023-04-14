@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "assets/*": ["./src/assets/*"]
+      "assets/*": ["./src/assets/*"],
+      "http/*": ["./src/http/*"]
     }
   },
   "exclude": ["node_modules"]
