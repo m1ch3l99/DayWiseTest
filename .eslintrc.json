@@ -84,6 +84,18 @@
     ],
 
     // import rules
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "": "never",
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+        "mjs": "never"
+      }
+    ],
     "import/no-unresolved": "off",
     "import/no-named-as-default": 0,
     "import/no-cycle": "error",
