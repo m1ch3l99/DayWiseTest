@@ -17,6 +17,7 @@
     "react-native": "0.71.5",
     "react-native-config": "^1.5.0",
     "react-native-lottie-splash-screen": "^1.1.1",
+    "react-native-mmkv": "^2.8.0",
     "zustand": "^4.3.7"
   },
   "devDependencies": {
