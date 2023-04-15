@@ -67,6 +67,7 @@
     "react-native/no-single-element-style-arrays": "error",
 
     // general rules
+    "arrow-parens": ["error", "as-needed"],
     "implicit-arrow-linebreak": "off",
     "prefer-const": "error",
     "no-console": "error",
@@ -122,7 +123,8 @@
       "path": [".", "./src"],
       "alias": {
         "assets": "./src/assets",
-        "http": "./src/http"
+        "http": "./src/http",
+        "store": "./src/store"
       }
     }
   }
