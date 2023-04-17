@@ -1,0 +1,8 @@
+# metro config
+metro.config.js
+
+#babel config
+babel.config.js
+
+#node module
+node_modules/
