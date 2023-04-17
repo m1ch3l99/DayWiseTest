@@ -20,6 +20,8 @@ module.exports = {
           assets: './src/assets',
           http: './src/http',
           store: './src/store',
+          navigation: './src/navigation',
+          screens: './src/screens',
         },
       },
     ],

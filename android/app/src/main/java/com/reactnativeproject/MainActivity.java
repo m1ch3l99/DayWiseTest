@@ -22,7 +22,7 @@ public class MainActivity extends ReactActivity {
   protected void onCreate(Bundle savedInstanceState) {
     SplashScreen.show(this, R.id.lottie); // here
     SplashScreen.setAnimationFinished(false); // If you want the animation dialog to be forced to close when hide is called, use this code
-    super.onCreate(savedInstanceState);
+    super.onCreate(null);
   }
 
   /**
