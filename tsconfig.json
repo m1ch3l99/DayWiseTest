@@ -5,7 +5,9 @@
     "paths": {
       "assets/*": ["./src/assets/*"],
       "http/*": ["./src/http/*"],
-      "store/*": ["./src/store/*"]
+      "store/*": ["./src/store/*"],
+      "navigation/*": ["./src/navigation/*"],
+      "screens/*": ["./src/screens/*"]
     }
   },
   "exclude": ["node_modules"]
