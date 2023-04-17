@@ -1,6 +1,18 @@
 import React from 'react';
-import MainNavigator from 'navigation/MainNavigator';
+import { StyleSheet, Text, View } from 'react-native';
 
-const App = (): JSX.Element => <MainNavigator />;
+const styles = StyleSheet.create({
+  screen: {
+    alignItems: 'center',
+    flex: 1,
+    justifyContent: 'center',
+  },
+});
+
+const App = (): JSX.Element => (
+  <View style={styles.screen}>
+    <Text>Welcome to react native</Text>
+  </View>
+);
 
 export default App;
