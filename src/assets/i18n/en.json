@@ -1,0 +1,6 @@
+{
+  "global": {
+    "greeting": "Hello!",
+    "welcomeMessage": "Welcome, {{name}}"
+  }
+}
