@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import useLanguageStore from 'store/languageStore';
 
 import { Languages } from 'config/types';
-import APP_LANGUAGES_CONFIG from './config';
+import APP_LANGUAGES_CONFIG from 'config/config';
+
 import { ITranslateHook, LanguageChangeType } from '../types';
 import defaultI18n from '../i18n';
 

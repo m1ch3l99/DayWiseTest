@@ -1,3 +1,4 @@
 import useThemeStore from './themeStore';
+import useLanguageStore from './languageStore';
 
-export default useThemeStore;
+export { useThemeStore, useLanguageStore };
