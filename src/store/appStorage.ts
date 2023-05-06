@@ -13,18 +13,25 @@ const zustandMMKVStorage: StateStorage = {
 };
 
 const getAllStoreKeys = (): string[] => appStorage.getAllKeys();
-const getStoreKey = (key: string): string | undefined =>
-  appStorage.getString(key);
+
 const setStoreKey = (key: string, value: string): void =>
   appStorage.set(key, value);
+
 const deleteStoreKey = (key: string): void => appStorage.delete(key);
+
 const clearStore = (): void => appStorage.clearAll();
+
+const getStoreKeyValue = (storeKey: string, valueKey: string): string => {
+  const storeValue = appStorage.getString(storeKey);
+  const value = JSON.parse(storeValue!).state[valueKey];
+  return value;
+};
 
 export default zustandMMKVStorage;
 export {
   getAllStoreKeys,
-  getStoreKey,
   setStoreKey,
   deleteStoreKey,
   clearStore,
+  getStoreKeyValue,
 };

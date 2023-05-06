@@ -1,8 +1,11 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
+import { getStoreKeyValue } from 'store/appStorage';
 import en from './en.json';
 import ar from './ar.json';
+
+const currentAppLanguage = getStoreKeyValue('language', 'appLanguage');
 
 const resources = {
   en: {
@@ -16,7 +19,7 @@ const resources = {
 i18n.use(initReactI18next).init({
   compatibilityJSON: 'v3',
   resources,
-  lng: 'en',
+  lng: currentAppLanguage,
   fallbackLng: 'en',
   interpolation: {
     escapeValue: false,

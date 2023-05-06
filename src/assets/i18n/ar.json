@@ -1,0 +1,6 @@
+{
+  "global": {
+    "greeting": "مرحبا!",
+    "welcomeMessage": "اهلا، {{name}}"
+  }
+}
