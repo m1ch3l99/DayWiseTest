@@ -1,4 +1,4 @@
-import { APP_LANGUAGES } from 'config/types';
+import { APP_LANGUAGES } from 'types/configTypes/index';
 
 const APP_LANGUAGES_CONFIG: APP_LANGUAGES = {
   AR: 'ar',

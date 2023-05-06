@@ -2,8 +2,9 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 import { getStoreKeyValue } from 'store/appStorage';
-import en from './en.json';
-import ar from './ar.json';
+
+import en from 'assets/lang/en.json';
+import ar from 'assets/lang/ar.json';
 
 const currentAppLanguage = getStoreKeyValue('language', 'appLanguage');
 

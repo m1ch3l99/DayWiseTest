@@ -124,11 +124,19 @@
       "path": [".", "./src"],
       "alias": {
         "assets": "./src/assets",
+        "atoms": "./src/components/atoms",
+        "config": "./src/config",
         "http": "./src/http",
-        "store": "./src/store",
+        "hooks": "./src/http",
+        "i18n": "./src/i18n",
+        "layouts": "./src/components/layouts",
+        "molecules": "./src/components/molecules",
         "navigation": "./src/navigation",
+        "organisms": "./src/components/organisms",
         "screens": "./src/screens",
-        "config": "./src/config"
+        "store": "./src/store",
+        "types": "./src/types",
+        "utils": "./src/utils"
       }
     }
   },
