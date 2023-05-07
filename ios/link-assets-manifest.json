@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/JosefinSans-Medium.ttf",
+      "sha1": "8b385bf4d177cb669b695bf3145d10ec8e7d214e"
+    },
+    {
+      "path": "src/assets/fonts/JosefinSans-Regular.ttf",
+      "sha1": "00396922956bc41e3845d271d73efbd516ebe0fd"
+    },
+    {
+      "path": "src/assets/fonts/JosefinSans-SemiBold.ttf",
+      "sha1": "6e483466f19d8c3535f35ede835415a463c4cd25"
+    }
+  ]
+}
