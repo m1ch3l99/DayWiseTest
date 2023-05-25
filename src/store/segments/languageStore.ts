@@ -3,7 +3,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { Languages } from 'types/configTypes/index';
 
-import zustandMMKVStorage from './appStorage';
+import zustandMMKVStorage from '../appStorage';
 
 interface ILanguageState {
   appLanguage: Languages;
