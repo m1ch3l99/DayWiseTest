@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
-import zustandMMKVStorage from './appStorage';
+import zustandMMKVStorage from '../appStorage';
 
 interface IThemeState {
   isDarkMode: boolean;
