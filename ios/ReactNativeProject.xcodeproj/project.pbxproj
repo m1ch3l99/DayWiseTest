@@ -12,13 +12,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-ReactNativeProject-ReactNativeProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeProject-ReactNativeProjectTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E335AA8E29DF24340023E588 /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = E335AA8D29DF24340023E588 /* splash.json */; };
-		E346006729D6F05200E5BC1A /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346006629D6F05200E5BC1A /* Dynamic.swift */; };
-		BAD41600AE3A4DF9AAF4ABAD /* JosefinSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */; };
 		42F5D40E6DC4465BAC43D638 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E558E5D8034C4EC1AF559C8C /* JosefinSans-Regular.ttf */; };
 		6A9FFC9E96A4488BB99E3D57 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-ReactNativeProject-ReactNativeProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeProject-ReactNativeProjectTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BAD41600AE3A4DF9AAF4ABAD /* JosefinSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */; };
+		E335AA8E29DF24340023E588 /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = E335AA8D29DF24340023E588 /* splash.json */; };
+		E346006729D6F05200E5BC1A /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346006629D6F05200E5BC1A /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,12 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeProject/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeProject-ReactNativeProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeProject-ReactNativeProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-Medium.ttf"; path = "../src/assets/fonts/JosefinSans-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ReactNativeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeProject.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeProject/Pods-ReactNativeProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ReactNativeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeProject.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeProject/Pods-ReactNativeProject.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ReactNativeProject-ReactNativeProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeProject-ReactNativeProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeProject-ReactNativeProjectTests/Pods-ReactNativeProject-ReactNativeProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-SemiBold.ttf"; path = "../src/assets/fonts/JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeProject-ReactNativeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeProject-ReactNativeProjectTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeProject-ReactNativeProjectTests/Pods-ReactNativeProject-ReactNativeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		E335AA8D29DF24340023E588 /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = splash.json; path = ../android/app/src/main/res/raw/splash.json; sourceTree = "<group>"; };
@@ -53,10 +55,8 @@
 		E346006329D6F03700E5BC1A /* libreact-native-lottie-splash-screen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-lottie-splash-screen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E346006529D6F05200E5BC1A /* ReactNativeProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		E346006629D6F05200E5BC1A /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		E558E5D8034C4EC1AF559C8C /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-Regular.ttf"; path = "../src/assets/fonts/JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */ = {isa = PBXFileReference; name = "JosefinSans-Medium.ttf"; path = "../src/assets/fonts/JosefinSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E558E5D8034C4EC1AF559C8C /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; name = "JosefinSans-Regular.ttf"; path = "../src/assets/fonts/JosefinSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "JosefinSans-SemiBold.ttf"; path = "../src/assets/fonts/JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +110,17 @@
 				E346006529D6F05200E5BC1A /* ReactNativeProject-Bridging-Header.h */,
 			);
 			name = ReactNativeProject;
+			sourceTree = "<group>";
+		};
+		2CA761FBA583412A9BB55071 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */,
+				E558E5D8034C4EC1AF559C8C /* JosefinSans-Regular.ttf */,
+				77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -166,17 +177,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		2CA761FBA583412A9BB55071 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */,
-				E558E5D8034C4EC1AF559C8C /* JosefinSans-Regular.ttf */,
-				77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
