@@ -1,6 +1,6 @@
 const Fonts = {
   regular: 'JosefinSans-Regular',
-  medium: 'JosefinSans-',
+  medium: 'JosefinSans-Medium',
   semiBold: 'JosefinSans-SemiBold',
 };
 
