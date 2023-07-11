@@ -1,10 +1,11 @@
 /* eslint-disable no-use-before-define */
 import 'i18n/i18n';
 import MainNavigator from 'navigation/MainNavigator';
+import { ReactNode } from 'react';
 import { StyleSheet } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
-const App = (): JSX.Element => (
+const App = (): ReactNode => (
   <GestureHandlerRootView style={styles.rootViewStyle}>
     <MainNavigator />
   </GestureHandlerRootView>
