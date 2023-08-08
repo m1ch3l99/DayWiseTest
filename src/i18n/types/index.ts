@@ -1,6 +1,6 @@
 import { TFunction } from 'i18next';
 
-import { Languages } from 'types/configTypes/index';
+import { Languages } from 'config/types';
 
 export type LanguageChangeType = Promise<
   TFunction<'translation', undefined, 'translation'>

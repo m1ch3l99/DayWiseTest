@@ -1,4 +1,4 @@
-import { IDevConfigurations } from 'types/configTypes';
+import { IDevConfigurations } from './types';
 
 const setupDevConfigurations = ({ queryClient }: IDevConfigurations): void => {
   if (__DEV__) {

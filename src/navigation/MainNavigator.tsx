@@ -3,9 +3,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import HomeScreen from 'screens/Home/HomeScreen';
 
-import MainNavigatorParamList from 'types/navigationTypes/MainNavigationTypes';
-
 import { hideSplashScreen } from 'utils/index';
+
+import MainNavigatorParamList from './types';
 
 const MainStackNavigator = createNativeStackNavigator<MainNavigatorParamList>();
 
