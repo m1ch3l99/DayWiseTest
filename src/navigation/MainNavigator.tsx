@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import HomeScreen from 'screens/Home/HomeScreen';
 
-import { hideSplashScreen } from 'utils/index';
+import { hideSplashScreen } from 'utils/helpers';
 
 import MainNavigatorParamList from './types';
 
