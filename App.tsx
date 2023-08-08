@@ -1,14 +1,12 @@
 /* eslint-disable no-use-before-define */
-import setupDevConfigurations from 'config/devConfig';
 import 'i18n/i18n';
-import MainNavigator from 'navigation/MainNavigator';
-import { StyleSheet } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { QueryClient, QueryClientProvider } from 'react-query';
+import { StyleSheet } from 'react-native';
+import { QueryClientProvider } from 'react-query';
 
-const queryClient = new QueryClient();
+import MainNavigator from 'navigation/MainNavigator';
 
-setupDevConfigurations({ queryClient });
+import queryClient from 'http/queryClient';
 
 const App = (): JSX.Element => (
   <QueryClientProvider client={queryClient}>
