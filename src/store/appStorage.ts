@@ -1,10 +1,6 @@
 import { MMKV } from 'react-native-mmkv';
 import { StateStorage } from 'zustand/middleware';
-
-interface IStoreMethods {
-  clearStore: () => void;
-  getAllStoreKeys: () => string[];
-}
+import { IStoreMethods } from './types';
 
 const appStorage = new MMKV({ id: 'app-storage' });
 

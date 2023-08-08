@@ -3,11 +3,17 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import HomeScreen from 'screens/Home/HomeScreen';
 
-import MainNavigatorParamList from 'types/navigationTypes/MainNavigationTypes';
+import setupDevConfigurations from 'config/devConfig';
 
-import { hideSplashScreen } from 'utils/index';
+import { hideSplashScreen } from 'utils/helpers';
+
+import queryClient from 'http/queryClient';
+
+import MainNavigatorParamList from './types';
 
 const MainStackNavigator = createNativeStackNavigator<MainNavigatorParamList>();
+
+setupDevConfigurations({ queryClient });
 
 const MainNavigator = (): JSX.Element => (
   <NavigationContainer onReady={hideSplashScreen}>

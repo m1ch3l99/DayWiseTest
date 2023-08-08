@@ -1,19 +1,10 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
-import { Languages } from 'types/configTypes/index';
+import { Languages } from 'config/types';
+import { ILanguageStore } from './types';
 
 import zustandMMKVStorage from '../appStorage';
-
-interface ILanguageState {
-  appLanguage: Languages;
-}
-
-interface ILanguageStateAction {
-  setLanguage: (language: Languages) => void;
-}
-
-type ILanguageStore = ILanguageState & ILanguageStateAction;
 
 const useLanguageStore = create<ILanguageStore>()(
   persist(

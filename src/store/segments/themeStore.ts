@@ -2,16 +2,7 @@ import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
 import zustandMMKVStorage from '../appStorage';
-
-interface IThemeState {
-  isDarkMode: boolean;
-}
-
-interface IThemeStateAction {
-  toggleTheme: () => void;
-}
-
-type IThemeStore = IThemeState & IThemeStateAction;
+import { IThemeStore } from './types';
 
 const useThemeStore = create<IThemeStore>()(
   persist(
