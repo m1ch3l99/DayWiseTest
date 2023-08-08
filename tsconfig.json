@@ -9,7 +9,7 @@
       "http/*": ["./src/http/*"],
       "hooks/*": ["./src/hooks/*"],
       "i18n/*": ["./src/i18n/*"],
-      "layouts/*": ["./src/components/atoms/*"],
+      "layouts/*": ["./src/components/layouts/*"],
       "molecules/*": ["./src/components/molecules/*"],
       "navigation/*": ["./src/navigation/*"],
       "organisms/*": ["./src/components/organisms/*"],
