@@ -67,4 +67,5 @@ yarn-error.log
 .env.*
 
 # md files
+*.md
 typescript.md
