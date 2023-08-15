@@ -2,10 +2,11 @@ import { useTranslation } from 'react-i18next';
 
 import useLanguageStore from 'store/segments/languageStore';
 
-import { ITranslateHook, LanguageChangeType } from 'i18n/types';
-
-import { Languages } from 'config/types';
 import APP_LANGUAGES_CONFIG from 'config/config';
+
+import { LanguageChangeType } from 'i18n/types';
+import { Languages } from 'config/types';
+import { ITranslateHook } from './types';
 
 const { EN, AR } = APP_LANGUAGES_CONFIG;
 
