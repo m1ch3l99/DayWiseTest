@@ -5,8 +5,6 @@ import HomeScreen from 'screens/Home/HomeScreen';
 
 import setupDevConfigurations from 'config/devConfig';
 
-import { hideSplashScreen } from 'utils/helpers';
-
 import queryClient from 'http/queryClient';
 
 import MainNavigatorParamList from './types';
@@ -16,7 +14,7 @@ const MainStackNavigator = createNativeStackNavigator<MainNavigatorParamList>();
 setupDevConfigurations({ queryClient });
 
 const MainNavigator = (): JSX.Element => (
-  <NavigationContainer onReady={hideSplashScreen}>
+  <NavigationContainer>
     <MainStackNavigator.Navigator
       initialRouteName="Home"
       screenOptions={{

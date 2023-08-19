@@ -12,13 +12,12 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		42F5D40E6DC4465BAC43D638 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E558E5D8034C4EC1AF559C8C /* JosefinSans-Regular.ttf */; };
-		619678A4CF5E56111AF01DA9 /* libPods-DayWise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B51D3DAC726CB60E9D54974B /* libPods-DayWise.a */; };
+		531976284491386A18DAC092 /* libPods-DayWise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBF71857C6F9A4C075E9B07 /* libPods-DayWise.a */; };
 		6A9FFC9E96A4488BB99E3D57 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9A6EB358AA64B363501BC118 /* libPods-DayWise-DayWiseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242CD399B8075869D3997E50 /* libPods-DayWise-DayWiseTests.a */; };
 		BAD41600AE3A4DF9AAF4ABAD /* JosefinSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */; };
-		DEBBD5215836AA30782AE014 /* libPods-DayWise-DayWiseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED34BF7D2165E9241A57BE5B /* libPods-DayWise-DayWiseTests.a */; };
 		E335AA8E29DF24340023E588 /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = E335AA8D29DF24340023E588 /* splash.json */; };
-		E346006729D6F05200E5BC1A /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346006629D6F05200E5BC1A /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,28 +34,26 @@
 		00E356EE1AD99517003FC87E /* DayWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DayWiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayWiseTests.m; sourceTree = "<group>"; };
-		0C0D74807583B8AA676359F9 /* Pods-DayWise-DayWiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayWise-DayWiseTests.release.xcconfig"; path = "Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DayWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DayWise/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = DayWise/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DayWise/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DayWise/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DayWise/main.m; sourceTree = "<group>"; };
-		2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-Medium.ttf"; path = "../src/assets/fonts/JosefinSans-Medium.ttf"; sourceTree = "<group>"; };
-		77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-SemiBold.ttf"; path = "../src/assets/fonts/JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		242CD399B8075869D3997E50 /* libPods-DayWise-DayWiseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DayWise-DayWiseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF6A5DEA1EC4C40AFDA4B52 /* JosefinSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-Medium.ttf"; path = "../src/assets/fonts/JosefinSans-Medium.ttf"; sourceTree = "<group>"; };
+		5B4451E5E5F299DD96BBBF2E /* Pods-DayWise-DayWiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayWise-DayWiseTests.debug.xcconfig"; path = "Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F40D6A9F88C008C4454001E /* Pods-DayWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayWise.release.xcconfig"; path = "Target Support Files/Pods-DayWise/Pods-DayWise.release.xcconfig"; sourceTree = "<group>"; };
+		77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-SemiBold.ttf"; path = "../src/assets/fonts/JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		78FAB26820EA3AB00D20B2A2 /* Pods-DayWise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayWise.debug.xcconfig"; path = "Target Support Files/Pods-DayWise/Pods-DayWise.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DayWise/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9C2031F38BC65392A2C05BA3 /* Pods-DayWise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayWise.debug.xcconfig"; path = "Target Support Files/Pods-DayWise/Pods-DayWise.debug.xcconfig"; sourceTree = "<group>"; };
-		A501A4B04613FA2B007EC321 /* Pods-DayWise-DayWiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayWise-DayWiseTests.debug.xcconfig"; path = "Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B51D3DAC726CB60E9D54974B /* libPods-DayWise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DayWise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4219F35FAE67D20472E8865 /* Pods-DayWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayWise.release.xcconfig"; path = "Target Support Files/Pods-DayWise/Pods-DayWise.release.xcconfig"; sourceTree = "<group>"; };
+		CAADE9439C8DC6795377A409 /* Pods-DayWise-DayWiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayWise-DayWiseTests.release.xcconfig"; path = "Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDBF71857C6F9A4C075E9B07 /* libPods-DayWise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DayWise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E335AA8D29DF24340023E588 /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = splash.json; path = ../android/app/src/main/res/raw/splash.json; sourceTree = "<group>"; };
 		E346006129D6F00800E5BC1A /* libreact-native-lottie-splash-screen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-lottie-splash-screen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E346006329D6F03700E5BC1A /* libreact-native-lottie-splash-screen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-lottie-splash-screen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E346006529D6F05200E5BC1A /* DayWise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayWise-Bridging-Header.h"; sourceTree = "<group>"; };
-		E346006629D6F05200E5BC1A /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
-		E558E5D8034C4EC1AF559C8C /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-Regular.ttf"; path = "../src/assets/fonts/JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		E558E5D8034C4EC1AF559C8C /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-Regular.ttf"; path = "../src/assets/fonts/JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ED34BF7D2165E9241A57BE5B /* libPods-DayWise-DayWiseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DayWise-DayWiseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBBD5215836AA30782AE014 /* libPods-DayWise-DayWiseTests.a in Frameworks */,
+				9A6EB358AA64B363501BC118 /* libPods-DayWise-DayWiseTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619678A4CF5E56111AF01DA9 /* libPods-DayWise.a in Frameworks */,
+				531976284491386A18DAC092 /* libPods-DayWise.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +103,6 @@
 				E335AA8D29DF24340023E588 /* splash.json */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				E346006629D6F05200E5BC1A /* Dynamic.swift */,
-				E346006529D6F05200E5BC1A /* DayWise-Bridging-Header.h */,
 			);
 			name = DayWise;
 			sourceTree = "<group>";
@@ -120,7 +115,6 @@
 				77823E81A53C4A5A92D8FF50 /* JosefinSans-SemiBold.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -129,8 +123,8 @@
 				E346006329D6F03700E5BC1A /* libreact-native-lottie-splash-screen.a */,
 				E346006129D6F00800E5BC1A /* libreact-native-lottie-splash-screen.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				B51D3DAC726CB60E9D54974B /* libPods-DayWise.a */,
-				ED34BF7D2165E9241A57BE5B /* libPods-DayWise-DayWiseTests.a */,
+				CDBF71857C6F9A4C075E9B07 /* libPods-DayWise.a */,
+				242CD399B8075869D3997E50 /* libPods-DayWise-DayWiseTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,10 +164,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9C2031F38BC65392A2C05BA3 /* Pods-DayWise.debug.xcconfig */,
-				C4219F35FAE67D20472E8865 /* Pods-DayWise.release.xcconfig */,
-				A501A4B04613FA2B007EC321 /* Pods-DayWise-DayWiseTests.debug.xcconfig */,
-				0C0D74807583B8AA676359F9 /* Pods-DayWise-DayWiseTests.release.xcconfig */,
+				78FAB26820EA3AB00D20B2A2 /* Pods-DayWise.debug.xcconfig */,
+				5F40D6A9F88C008C4454001E /* Pods-DayWise.release.xcconfig */,
+				5B4451E5E5F299DD96BBBF2E /* Pods-DayWise-DayWiseTests.debug.xcconfig */,
+				CAADE9439C8DC6795377A409 /* Pods-DayWise-DayWiseTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -185,12 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DayWiseTests" */;
 			buildPhases = (
-				E83F8710EA2FB32C09682AEF /* [CP] Check Pods Manifest.lock */,
+				FEF1D62BC919B16721CBAFC4 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				49DFD510410FD5B26C75EF06 /* [CP] Embed Pods Frameworks */,
-				15A19131011FC61B540FAB75 /* [CP] Copy Pods Resources */,
+				D59889856A89CD4B06DC4E80 /* [CP] Embed Pods Frameworks */,
+				1DFF95D08909C75A48FD8EB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +192,7 @@
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = DayWiseTests;
+			productName = DayWiseTests;
 			productReference = 00E356EE1AD99517003FC87E /* DayWiseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -205,14 +200,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DayWise" */;
 			buildPhases = (
-				D451AAF3FAD1150F8D586130 /* [CP] Check Pods Manifest.lock */,
+				8A166A3F41C6B98519CCC921 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				ECC01DF95BE58C5C53933A83 /* [CP] Embed Pods Frameworks */,
-				791E399BE1100EC84ABAE80D /* [CP] Copy Pods Resources */,
+				29D71452F3D14D47C7543547 /* [CP] Embed Pods Frameworks */,
+				46395C4557AFFE7A46C68DA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,7 +294,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		15A19131011FC61B540FAB75 /* [CP] Copy Pods Resources */ = {
+		1DFF95D08909C75A48FD8EB8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,24 +311,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		49DFD510410FD5B26C75EF06 /* [CP] Embed Pods Frameworks */ = {
+		29D71452F3D14D47C7543547 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DayWise/Pods-DayWise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DayWise/Pods-DayWise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayWise/Pods-DayWise-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		791E399BE1100EC84ABAE80D /* [CP] Copy Pods Resources */ = {
+		46395C4557AFFE7A46C68DA6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +345,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayWise/Pods-DayWise-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D451AAF3FAD1150F8D586130 /* [CP] Check Pods Manifest.lock */ = {
+		8A166A3F41C6B98519CCC921 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,43 +367,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E83F8710EA2FB32C09682AEF /* [CP] Check Pods Manifest.lock */ = {
+		D59889856A89CD4B06DC4E80 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DayWise-DayWiseTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ECC01DF95BE58C5C53933A83 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DayWise/Pods-DayWise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DayWise/Pods-DayWise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayWise/Pods-DayWise-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayWise-DayWiseTests/Pods-DayWise-DayWiseTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,6 +403,28 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FEF1D62BC919B16721CBAFC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayWise-DayWiseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -445,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E346006729D6F05200E5BC1A /* Dynamic.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -464,9 +458,8 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A501A4B04613FA2B007EC321 /* Pods-DayWise-DayWiseTests.debug.xcconfig */;
+			baseConfigurationReference = 5B4451E5E5F299DD96BBBF2E /* Pods-DayWise-DayWiseTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -492,9 +485,8 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C0D74807583B8AA676359F9 /* Pods-DayWise-DayWiseTests.release.xcconfig */;
+			baseConfigurationReference = CAADE9439C8DC6795377A409 /* Pods-DayWise-DayWiseTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = DayWiseTests/Info.plist;
@@ -517,7 +509,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C2031F38BC65392A2C05BA3 /* Pods-DayWise.debug.xcconfig */;
+			baseConfigurationReference = 78FAB26820EA3AB00D20B2A2 /* Pods-DayWise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -547,7 +539,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4219F35FAE67D20472E8865 /* Pods-DayWise.release.xcconfig */;
+			baseConfigurationReference = 5F40D6A9F88C008C4454001E /* Pods-DayWise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
