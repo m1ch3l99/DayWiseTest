@@ -7,7 +7,11 @@
     "ios": "react-native run-ios",
     "lint": "eslint . --fix",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "ios-iPh14": "react-native run-ios --simulator='iPhone 14 Pro Max'",
+    "clean": "rm -rf node_modules && yarn cache clean --force && yarn install",
+    "android:clean": "cd android && ./gradlew clean && cd ..",
+    "ios:clean": "cd ios && xcodebuild clean && rm -rf ~/Library/Caches/CocoaPods && rm -rf Pods && rm -rf ~/Library/Developer/Xcode/DerivedData/* && pod cache clean --all && pod deintegrate && pod setup && pod install && cd .."
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.6",
