@@ -1,4 +1,4 @@
-package com.reactnativeproject;
+package com.DayWise;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
