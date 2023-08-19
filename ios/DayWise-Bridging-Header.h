@@ -3,8 +3,8 @@
 //
 
 
-#ifndef ReactNativeProject_Bridging_Header_h
-#define ReactNativeProject_Bridging_Header_h
+#ifndef DayWise_Bridging_Header_h
+#define DayWise_Bridging_Header_h
 
 #import "RNSplashScreen.h"
 
